@@ -48,6 +48,17 @@ RUN \
         zip=3.0-13 \
         zsh=5.9-4+b2 \
         less=590-2 \
+        net-tools=2.10-0.1 \
+        util-linux=2.38.1-5+b1 \
+        aptitude=0.8.13-5 \
+        htop=3.2.2-2 \
+        iftop=1.0~pre4-9 \
+        ncdu=1.18-0.2 \
+        lm-sensors=1:3.6.0-7.1 \
+        lsof=4.95.0-1 \
+        strace=6.1-0.1 \
+        nano=7.2-1 \
+        mc=3:4.8.29-2
     \
     && sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen \
     && locale-gen \
