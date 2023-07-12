@@ -58,7 +58,7 @@ RUN \
         lsof=4.95.0-1 \
         strace=6.1-0.1 \
         nano=7.2-1 \
-        mc=3:4.8.29-2
+        mc=3:4.8.29-2 \
     \
     && sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen \
     && locale-gen \
